@@ -232,4 +232,24 @@
 		<FootprintRef1>XTAL_ASEK-32.768KHZ-LRT</FootprintRef1>
 		<FootprintPath3>Footprints\.PcbLib</FootprintPath3>
 	</Part>
+	<Part>
+		<PartNumber>KLS7-TS3601</PartNumber>
+		<Description>Тактовая кнопка</Description>
+		<Comment>KLS7-TS3601</Comment>
+		<LibraryPath>Schematic\KLS7-TS3601.SchLib</LibraryPath>
+		<LibraryRef>Tact_button</LibraryRef>
+		<FootprintPath1>Footprints\Buttons\KLS7-TS3601.PcbLib</FootprintPath1>
+		<FootprintRef1>KLS7-TS3601</FootprintRef1>
+		<FootprintPath3>Footprints\.PcbLib</FootprintPath3>
+	</Part>
+	<Part>
+		<PartNumber>L-KLS5-CR2032-03</PartNumber>
+		<Description>Держатель батареи CR2032</Description>
+		<Comment>L-KLS5-CR2032-03</Comment>
+		<LibraryPath>Schematic\L-KLS5-CR2032-03.SchLib</LibraryPath>
+		<LibraryRef>Battery</LibraryRef>
+		<FootprintPath1>Footprints\L-KLS5-CR2032-03.PcbLib</FootprintPath1>
+		<FootprintRef1>L-KLS5-CR2032-03</FootprintRef1>
+		<FootprintPath3>Footprints\.PcbLib</FootprintPath3>
+	</Part>
 </Other>

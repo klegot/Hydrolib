@@ -559,10 +559,56 @@
 		<FootprintRef1>SOT23-3</FootprintRef1>
 	</Part>
 	<Part>
+<<<<<<< HEAD
 		<PartNumber>TEST-COMPONENT-BBB</PartNumber>
 		<Comment>TEST-COMPONENT-BBB</Comment>
 		<LibraryPath>Schematic\TEST-COMPONENT-BBB.SchLib</LibraryPath>
 		<LibraryRef>TEST-COMPONENT-BBB</LibraryRef>
 		<FootprintPath1>Footprints\.PcbLib</FootprintPath1>
+=======
+		<PartNumber>ATTINY412-SSN</PartNumber>
+		<Description>Микроконтроллер</Description>
+		<Comment>ATTINY412-SSN</Comment>
+		<LibraryPath>Schematic\ATTINY412-SSN.SchLib</LibraryPath>
+		<LibraryRef>ATTINY412-SSN</LibraryRef>
+		<FootprintPath1>Footprints\SOIC-8.PcbLib</FootprintPath1>
+		<FootprintRef1>SOIC-8</FootprintRef1>
+	</Part>
+	<Part>
+		<PartNumber>CH340N</PartNumber>
+		<Description>Преобразователь интерфейса USB в UART</Description>
+		<Comment>CH340N</Comment>
+		<LibraryPath>Schematic\CH340N.SchLib</LibraryPath>
+		<LibraryRef>CH340N</LibraryRef>
+		<FootprintPath1>Footprints\SOP8.PcbLib</FootprintPath1>
+		<FootprintRef1>SOP8</FootprintRef1>
+	</Part>
+	<Part>
+		<PartNumber>MAX809</PartNumber>
+		<Description>Формирователь импульса сброса (супервизор питания)</Description>
+		<Comment>MAX809</Comment>
+		<LibraryPath>Schematic\MAX809.SchLib</LibraryPath>
+		<LibraryRef>MAX809</LibraryRef>
+		<FootprintPath1>Footprints\SOT23-3.PcbLib</FootprintPath1>
+		<FootprintRef1>SOT23-3</FootprintRef1>
+	</Part>
+	<Part>
+		<PartNumber>XT4052</PartNumber>
+		<Description>Контроллер заряда Li-Ion аккумуляторов, 4.2 В</Description>
+		<Comment>XT4052</Comment>
+		<LibraryPath>Schematic\XT4052.SchLib</LibraryPath>
+		<LibraryRef>XT4052</LibraryRef>
+		<FootprintPath1>Footprints\SOT23-5.PcbLib</FootprintPath1>
+		<FootprintRef1>SOT23-5</FootprintRef1>
+	</Part>
+	<Part>
+		<PartNumber>WS2812B</PartNumber>
+		<Description>Адресный светодиод</Description>
+		<Comment>WS2812B</Comment>
+		<LibraryPath>Schematic\WS2812B.SchLib</LibraryPath>
+		<LibraryRef>WS2812B</LibraryRef>
+		<FootprintPath1>Footprints\LED_RGB_5MM.PcbLib</FootprintPath1>
+		<FootprintRef1>LED_RGB_5MM</FootprintRef1>
+>>>>>>> d072491 (Добавил компонент ААА в тестовой ветке)
 	</Part>
 </Chips>
